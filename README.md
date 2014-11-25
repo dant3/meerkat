@@ -48,7 +48,7 @@ fsm ! Command.ready ! Command.go /*those will not change state: */ ! Command.sto
 
 /**
  * this should yield in console:
- *   red --(ready)--> yellow
+ *    red --(ready)--> yellow
  *    yellow --(go)--> green
  *    green --(stop)--x
  *    green --(go)--x
